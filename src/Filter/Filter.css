@@ -1,0 +1,77 @@
+body{
+  background: #dddaeb;
+}
+.btn-dropdown{
+  display: flex;
+  float: right;
+}
+.btn-dropdown ul{
+  display: flex;
+}
+.btn-dropdown li{
+list-style: none;
+}
+.filter .dropdown{
+  float: right;
+}
+.ant-modal-content, .ant-modal-header{
+  border-radius: 15px;
+  border-bottom: none;
+}
+.ant-modal-close-x{
+  display: none;
+}
+.ant-modal-title {
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 11px;
+}
+.ant-btn-link {
+  color: #7D71C1 !important;
+  font-weight: 500;
+}
+.ant-radio-wrapper {
+  font-weight: 500;
+}
+.ant-radio-checked .ant-radio-inner {
+  border-color: rgb(7, 7, 7);
+}
+.ant-radio-inner::after {
+  background-color: #2D0CB3;
+}
+.radio-gap{
+  gap: 25px !important;
+}
+.ant-picker{
+  padding: 6px 12px 7px;
+  border-radius: 10px;
+}
+.ant-picker-input > input {
+  font-size: 12px;
+}
+.main-btn{
+  margin: 20px 0 0 38px;
+}
+.first-btn{
+  border-radius: 5px;
+  color: #535353;
+  font-weight: 500;
+  height: 40px;
+}
+.second-btn{
+  color: #2D0CB3;
+  margin-left: 20px;
+  border-radius: 5px;
+  font-weight: 600;
+  height: 40px;
+  background: linear-gradient(180deg, rgb(176, 173, 201) 0%, rgb(206, 206, 223) 35%, rgb(247, 245, 245)100%);
+}
+.second-btn:hover{
+  background: linear-gradient(180deg, rgb(176, 173, 201) 0%, rgb(206, 206, 223) 35%, rgb(247, 245, 245)100%);
+  border-color: #2D0CB3;
+  color: #2D0CB3;
+}
+.first-btn:hover{
+  border-color: #2D0CB3;
+  color: #2D0CB3;
+}

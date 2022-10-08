@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+ 
+}
+.container{
+  width: 400px;
+  height: 370px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px lightblue;
+  background: white;
+  padding: 30px 0 0 30px;
+}
+.ant-steps-item-container {
+  margin-top: 10px;
+}
+.ant-steps-vertical{
+  flex-direction: column-reverse;
+}
+.linebar{
+  height: 40px !important;
+}
+.ant-steps-item-tail{
+  display: block !important;
+}
+.linebar .ant-steps-icon{
+  color: green !important;
+}
+.title-text{
+  display: flex;
+  flex-direction: column;
+}
+p{
+  margin: 0;
+  line-height: normal;
+}
+.p1{
+  font-size: 15px;
+  font-weight: 500;
+}
+.p2{
+  font-size: 12px;
+}

@@ -1,0 +1,57 @@
+.gutter-box {
+  padding: 8px 0;
+  background: white;
+}
+.gutter-row{
+  margin-top: 15px;
+}
+.first_rows{
+  margin-top: 0px;
+}
+.first_rows .cols {
+    background: rgb(255, 255, 255);
+    padding: 8px 0px;
+    box-shadow: 3px 4px #d1caca;
+    border-radius: 5px;
+    height: 110px;
+    width: 110px !important;
+}
+.second_rows .ant-row{
+  margin-top: 10px !important;
+}
+.ant-modal{
+  width: 60% !important;
+}
+.ant-modal-header{
+  border-bottom: none !important;
+  border-radius: 15px !important;
+}
+.ant-modal-content{
+  border-radius: 15px !important;
+}
+.ant-modal-close-x{
+  display: none !important;
+}
+.ant-modal-title{
+  font-weight: 700 !important;
+}
+.anticon svg{
+  height: 30px;
+  width: 30px;
+  color: #39038f;
+}
+.first_rows h1{
+  margin: 0;
+}
+.first_rows .cols{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.col_content{
+  display: flex;
+}
+.col_content sub{
+  bottom: 0 !important;
+  font-size: medium;
+}
